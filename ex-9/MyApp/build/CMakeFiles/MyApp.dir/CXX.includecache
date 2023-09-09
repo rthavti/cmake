@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../MathLib/math_functions.h
+
+/home/rambo/raj/git-hub/cmake/ex-9/MyApp/main.cpp
+iostream
+-
+math_functions.h
+/home/rambo/raj/git-hub/cmake/ex-9/MyApp/math_functions.h
+
